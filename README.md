@@ -19,7 +19,7 @@ to be tested before to use in a production environment.
 There is no setup while in beta, but you can test it by
 cloning from:
 
-
+https://github.com/userDanielSven/urraca-backup-tool.git
 
 Urraca Backup Tool need a config file to work. This is named as urracabt.conf
 and located at the same path that .py file is. In this directory there is
