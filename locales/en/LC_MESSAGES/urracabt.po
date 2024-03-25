@@ -1,0 +1,307 @@
+# Make backup of directories an files using rsync
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <danielsvenson@protonmail.com>, 2023-2024
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-04 19:57+0100\n"
+"PO-Revision-Date: 2024-03-09 HO:MI+ZONE\n"
+"Last-Translator: Daniel Svenson <danielsvenson@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.24.3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid ""
+"No existe el fichero de configuración\n"
+"Elija directorios y"
+msgstr "Config file does not exists\n"
+"Select directories and"
+
+
+msgid " ficheros de origen y destino para la copia\n"
+"No olvide guardar los cambios"
+msgstr " source files and target to copy\n"
+"Do not forget save changes"
+
+msgid "Ejecutando "
+msgstr "Running "
+
+msgid "Ejecutando..."
+msgstr "Running..."
+
+msgid "No hay acceso al host"
+msgstr "No route to host"
+
+msgid "No hay acceso al host Abandonando la copia"
+msgstr "No route to host. Quitting" 
+
+msgid "Conexión rehusada"
+msgstr "Connection refused"
+
+msgid "Conexión rehusada Abandonando la copia"
+msgstr "Connection refused. Quitting"
+
+msgid "Permiso denegado"
+msgstr "Permission denied"
+
+msgid "Permiso denegado Abandonando la copia"
+msgstr "Permission denied. Quitting"
+
+msgid "Reset en la conexión"
+msgstr "Connection reset"
+
+msgid "Reset en la conexión Abandonando la copia"
+msgstr "Connection reset. Quitting"
+
+msgid "Debe asignar un valor de puerto remoto para un destino remoto"
+msgstr "You must set a remote port value for remote target"
+
+msgid "Error en el proceso"
+msgstr "Error while in process"
+
+msgid "Error en el proceso Abandonando la copia"
+msgstr "Error while in process. Quitting"
+
+msgid "Copia de seguridad"
+msgstr "Backup"
+
+msgid "Error en la copia de "
+msgstr "Error while in copying "
+
+msgid "Sincronizando "
+msgstr "Synchronizing "
+
+msgid "Copia finalizada"
+msgstr "Backup done"
+
+msgid "No existe directorio de destino"
+msgstr "Target directory does not exists"
+
+msgid "No hay ficheros y/o directorios seleccionados para copiar"
+msgstr "There are not selected files and/or directories to copy"
+
+msgid "No hay directorio de destino"
+msgstr "There is not targer directory"
+
+msgid "La selección ha sido guardada"
+msgstr "Selection saved"
+
+msgid "No existen ficheros o directorios de origen para guardar"
+msgstr "There are not source files or directories to save"
+
+msgid "No existe directorio de destino para guardar"
+msgstr "There is not target directory to store"
+
+msgid "Confirmación"
+msgstr "Confirmation"
+
+msgid "El item de origen "
+msgstr "Source item "
+
+msgid " no existe\n"
+msgstr " does not exists\n"
+
+msgid "¿Eliminar de la lista?"
+msgstr "Delete from list?"
+
+msgid "¿Desea eliminar en destino?"
+msgstr "Do you want to delete target"
+
+msgid "No hay items seleccionados para eliminar"
+msgstr "There are not selected items to delete"
+
+msgid "¿Guardar los cambios antes de salir?"
+msgstr "Save changes before exit?"
+
+msgid "Se han realizado modificaciones\n"
+msgstr "Changes has been done\n"
+
+msgid "¿Desea salir de Urraca Backup Tool?"
+msgstr "Exit Urraca Backup Tool?"
+
+msgid "Directorios y ficheros de origen seleccionados"
+msgstr "Selected sources directories and files"
+
+msgid "Destino seleccionado (Local/Remoto)"
+msgstr "Selected target (Local/Remote)"
+
+msgid "Log del proceso"
+msgstr "Process log"
+
+msgid "Línea de mensajes:"
+msgstr "Message line:"
+
+msgid " Eliminar en destino si ha sido borrado en origen"
+msgstr " Delete target if does not exists in source"
+
+msgid " Comprimir durante la copia"
+msgstr " Zip while in rsync"
+
+msgid "Elegir ficheros"
+msgstr "Select files"
+
+msgid "Elegir directorios"
+msgstr "Select directories"
+
+msgid "Eliminar"
+msgstr "Delete"
+
+msgid "Elegir destino local"
+msgstr "Select local target"
+
+msgid "Debe asignar un valor de password para acceso con password"
+msgstr "You must set a password value for password access"
+
+msgid "Guardar"
+msgstr "Save"
+
+msgid " Iniciar copia "
+msgstr "Start rsync"
+
+msgid "Salir"
+msgstr "Exit"
+
+msgid "Limpia Log"
+msgstr "Clean log"
+
+msgid " existe en destino\n"
+msgstr " exists in target\n"
+
+msgid "Español"
+msgstr "Spanish"
+
+msgid "Inglés"
+msgstr "English"
+
+msgid "Opciones de idioma"
+msgstr "Language options"
+
+msgid "Necesita guardar y reiniciar"
+msgstr "Need to save and restart"
+
+msgid "Acerca de"
+msgstr "About"
+
+msgid "\nPuede enviar comentarios, bugs y sugerencias para mejorarlo a\n\n"
+msgstr "\nYou can send comments, bugs, ideas to improve it to\n\n"
+
+msgid "Urraca Backup Tool es un script en python 3.10 y Tkinter para guardar\n y restaurar directorios y ficheros usando rsync."
+msgstr "Urraca Backup Tool is a python 3.10 and Tkinter script to save\n and restore directories and files using rsync."
+
+msgid "El fichero ya existe en la selección"
+msgstr "File exists in selection"
+
+msgid "El directorio ya existe en la selección"
+msgstr "Directory exists in selection"
+
+msgid "No hay cambios que guardar"
+msgstr "Nothing to save"
+
+msgid "Opciones Remoto"
+msgstr "Remote Options"
+
+msgid "Puerto Remoto"
+msgstr "Remote Port"
+
+msgid "Tipo de Acceso Remoto"
+msgstr "Remote Access Type"
+
+msgid "Clave pública"
+msgstr "Public key"
+
+msgid "Añade parámetros actuales a cron"
+msgstr "Add to cron"
+
+msgid "Minuto (0-59)"
+msgstr "Minute (0-59)"
+
+msgid "Hora (0-23)"
+msgstr "Hour (0-23)"
+
+msgid "Día del mes (1-31)"
+msgstr "Day of month (1-31)"
+
+msgid "Mes (1-12)"
+msgstr "Month (1-12)"
+
+msgid "Día de la semana (0-6)"
+msgstr "Day of week (0-6)"
+
+msgid "Aceptar valores para cron"
+msgstr "Accept values for cron"
+
+msgid "Programador"
+msgstr "Schedule"
+
+msgid "Seleccione sólo un tipo de parámetro \n temporal"
+msgstr "Select just one type (@ or Min, hour...)"
+
+msgid "Minuto"
+msgstr "Minute"
+
+msgid "Hora"
+msgstr "Hour"
+
+msgid "Día del mes"
+msgstr "Day of month"
+
+msgid "Mes"
+msgstr "Month"
+
+msgid "Día de la semana"
+msgstr "Day of week"
+
+msgid "Cadenas de texto reservadas"
+msgstr "Reserved text strings"
+
+msgid "Aceptar"
+msgstr "Ok"
+
+msgid "Su selección es esta:\n"
+msgstr "Your selection is:\n"
+
+msgid "\n¿Es correcto?"
+msgstr "\nIs right?"
+
+msgid "Debe especificar algún valor temporal"
+msgstr "You must give some time parameter"
+
+msgid "órdenes enviadas a cron correctamente"
+msgstr "commands sent to cron successfully"
+
+msgid "Algo no ha ido bien"
+msgstr "Something went wrong"
+
+msgid "Parámetros de tiempo"
+msgstr "Time settings"
+
+msgid "No se guardarán parámetros remotos para copia local"
+msgstr "Settings changes will not be saved for local process"
+
+msgid "Puede editar los desplegables manualmente"
+msgstr "You can edit boxes by hand"
+
+msgid "Ya existe en cron el elemento:\n"
+msgstr "Item already in cron file:\n"
+
+msgid "\nSe omite"
+msgstr "\nOmitting"
+
+msgid "Se eliminará de la lista"
+msgstr "Deleting from list"
+
+msgid "Danielsvenson@protonmail.com"
+msgstr "Danielsvenson@protonmail.com"
+
+
+
+
+
+
